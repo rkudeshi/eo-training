@@ -1,0 +1,67 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>New EO Training Class</title>
+
+</head>
+
+<body>
+
+	<div style="max-width:1024px; margin: 0 auto; padding:0 50px;">
+
+
+		<div style="display:flex; justify-content:space-between; margin-bottom:10px;">
+			<span style="font-weight:700;"><a href="slide2.html"><< Previous</a></span>
+			<span style="font-weight:700;"><a href="..\index.html">Table of Contents</a></span>
+			<span style="font-weight:700;"><a href="slide4.html">Next >></a></span>
+		</div>
+
+
+		<img src="../assets/slide-3.jpeg" style="max-width:100%; border-radius:10px;">
+
+		<div>
+
+			<audio id="audioplayer" controls autoplay style="width:100%;">
+				<source src="../assets/slide-3.m4a" type="audio/mp4">
+					<source src="horse.mp3" type="audio/mpeg">
+						Your browser does not support the audio tag.
+					</audio>
+
+					<script>
+						var audio = document.getElementById('audioplayer');
+
+						function redirectHandler() {
+							window.location.href = 'slide4.html';
+						}
+
+						function delayRedirect() {
+							window.setTimeout(redirectHandler,2000);
+
+						}
+
+						audio.addEventListener('ended', delayRedirect, false);
+					</script>
+
+				</div>
+
+
+				<div style="font-size:1.5em; font-family: sans-serif; line-height: 1.6;">
+
+					<div class="slide-notes">
+						<p>These training materials will prepare you for any upcoming election.</p>
+
+						<p>However, if you are reviewing this material in advance of the June 2020 Primary Elections, note that we are continuing to prepare and execute our Contingency Response Plan for COVID-19. Chiefs and Assistant Chiefs will receive more detailed procedures during their pre-election briefing. Election officers will also be provided with detailed information about our Contingency Response Plan for COVID-19 before the election.</p>
+
+						<p>At minimum, we will provide PPE Materials for the June 2020 Election to each polling place with gloves, face masks, and hand sanitizer for election officers. We will limit the number of voters in the voting room and require voters to maintain a 6-foot distance from each other and from election officers. And if any election officer is ill before or on election day, they will be dismissed immediately and replaced if possible.</p>
+
+
+					</div>
+
+				</div>
+			</div>
+
+		</body>
+		</html>

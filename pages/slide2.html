@@ -1,0 +1,69 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>New EO Training Class</title>
+
+</head>
+
+<body>
+
+	<div style="max-width:1024px; margin: 0 auto; padding:0 50px;">
+
+
+		<div style="display:flex; justify-content:space-between; margin-bottom:10px;">
+			<span style="font-weight:700;"><a href="slide1.html"><< Previous</a></span>
+			<span style="font-weight:700;"><a href="..\index.html">Table of Contents</a></span>
+			<span style="font-weight:700;"><a href="slide3.html">Next >></a></span>
+		</div>
+
+
+		<img src="../assets/slide-2.jpeg" style="max-width:100%; border-radius:10px;">
+
+		<div>
+
+		<div>
+
+			<audio id="audioplayer" controls autoplay style="width:100%;">
+				<source src="../assets/slide-2.m4a" type="audio/mp4">
+					<source src="horse.mp3" type="audio/mpeg">
+						Your browser does not support the audio tag.
+					</audio>
+
+					<script>
+						var audio = document.getElementById('audioplayer');
+
+						function redirectHandler() {
+							window.location.href = 'slide3.html';
+						}
+
+						function delayRedirect() {
+							window.setTimeout(redirectHandler,2000);
+
+						}
+
+						audio.addEventListener('ended', delayRedirect, false);
+					</script>
+
+				</div>
+
+
+				<div style="font-size:1.5em; font-family: sans-serif; line-height: 1.6;">
+
+					<div class="slide-notes">
+						<p>Review all information in these slides and notes at your own pace.</p>
+
+						<p>We will go over all information you need to know, including basic information for all election officers, which IDs you may accept from voters, how to use the Poll Pads to check-in voters, how to use the ExpressVote for voters needing help with accessibility, and how to use the DS200 ballot scanner.</p>
+
+						<p>At the end, you must complete a quiz to receive credit for this class.</p>
+
+
+					</div>
+
+				</div>
+			</div>
+
+		</body>
+		</html>
